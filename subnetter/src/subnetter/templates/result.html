@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subnet Calculator - Result</title>
+</head>
+<body>
+    <h1>Subnet Calculation Result</h1>
+    <p><strong>Network Address:</strong> {{ result.network_address }}</p>
+    <p><strong>Broadcast Address:</strong> {{ result.broadcast_address }}</p>
+    <p><strong>Host Addresses:</strong></p>
+    <ul>
+        {% for host in result.host_addresses %}
+            <li>{{ host }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('index') }}">Back to Subnet Calculator</a>
+</body>
+</html>
+
