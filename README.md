@@ -14,57 +14,24 @@ Subnetter is a simple web application that allows users to calculate subnet info
 
 Before you can run the application, make sure you have Python 3.11 and Poetry installed.
 
+
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/subnetter.git
+git clone https://github.com/davidjnevin/subnetter.git
 ```
 
-
-2. Change to the project directory:
-
-```bash
-Here is the README content enclosed within triple backticks, so you can copy and paste the plain text:
-
-markdown
-
-# Subnetter
-
-Subnetter is a simple web application that allows users to calculate subnet information such as network address, broadcast address, and host addresses based on an IP address and subnet mask. The application is built using Python, Flask, and HTML/CSS.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation
-
-Before you can run the application, make sure you have Python 3.11 and Poetry installed.
-
-1. Clone the repository:
-
-git clone https://github.com/davidjnevin/subnetter.git
-
-css
-
-
 2. Change to the project directory
-
 
 ```bash
 cd subnetter
 ```
-
 
 3. Install the project dependencies using Poetry:
 
 ```bash
 poetry install
 ```
-
 
 ## Usage
 
@@ -76,14 +43,12 @@ To run the Subnetter application locally, follow these steps:
 poetry shell
 ```
 
-
 2. Run the Flask application:
 
 ```bash
 export FLASK_APP=src/subnetter/app.py
 flask run
 ```
-
 
 3. Open your web browser and navigate to [http://localhost:5000](http://localhost:5000) to use the Subnetter web application.
 
@@ -94,7 +59,6 @@ To run the tests for the Subnetter application, simply execute the following com
 ```bash
 poetry run pytest
 ```
-
 
 ## Contributing
 
