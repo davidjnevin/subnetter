@@ -46,7 +46,7 @@ Before you can run the application, make sure you have Python 3.11 and Poetry in
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/subnetter.git
+git clone https://github.com/davidjnevin/subnetter.git
 
 css
 
