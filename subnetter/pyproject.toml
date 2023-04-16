@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "subnetter"
+version = "0.1.0"
+description = "A simple subnet calculator web application"
+authors = ["David J Nevin <dnevincodes@gmail.com>"]
+readme = "README.md"
+packages = [{include = "subnetter", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.1"
+ipaddress = "^1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
