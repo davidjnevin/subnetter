@@ -8,7 +8,7 @@ packages = [{include = "subnetter", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-flask = "^2.1"
+flask = "^2.3"
 ipaddress = "^1.0"
 
 
